@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #7FDBF0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+form{
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 500px;
+    border-right: 30px solid #3784F4;
+    padding: 2rem;
+}
+.form-header{
+    margin-bottom: 1.5rem;
+}
+.form-header-text{
+    font-size: 1.2rem;
+    color:  #3784F4;
+    font-weight: bold;
+}
+label{
+    display: block;
+    color: #8b8b8b;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.form-body-input{
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    background-color: #E6E6E6;
+    border-radius: 4px;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+.remember-me-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.check-box{
+    font-size: 3rem;
+}
+.button-container{
+    width: 100%;
+    background-color: #3784F4;
+    padding: 0.5rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.forgot-password{
+    color: #3784F4;
+}
+@media screen and (max-width: 600px){
+    body{
+        padding: 2rem;
+    }
+    
+form{
+    height: auto;
+    width: 350px;
+    padding: 2rem;
+}
+    
+}
